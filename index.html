@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de WJSN</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="start_btn"><button>Empezar</button></div>
+
+    
+    <div class="info_box">
+        <div class="info-title"><span>Algunas reglas del juego</span></div>
+        <div class="info-list">
+            <div class="info">1. Tendrás solo <span>15 segundos</span> por pregunta.</div>
+            <div class="info">2. Una vez que selecciones tu respuesta no podrás cambiarla.</div>
+            <div class="info">3. No podrás elegir ninguna opción cuando el tiempo se termine.</div>
+            <div class="info">4. No puedes salir del juego mientras estes jugando.</div>
+            <div class="info">5. Por cada respuesta correcta obtendras un punto.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    
+    <div class="quiz_box">
+        <header>
+            <div class="title">Trivia sobre wjsn</div>
+            <div class="timer">
+                <div class="time_left_txt">Tiempo Restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                
+            </div>
+            <div class="option_list">
+                
+            </div>
+        </section>
+
+        
+        <footer>
+            <div class="total_que">
+                
+            </div>
+            <button class="next_btn">Siguiente pregunta</button>
+        </footer>
+    </div>
+
+    
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">!Has completado la trivia!</div>
+        <div class="score_text">
+            
+        </div>
+        <div class="buttons">
+            <button class="restart">Volver a jugar</button>
+            <button class="quit">Salir del juego</button>
+        </div>
+    </div>
+
+    
+    <script src="js/preguntas.js"></script>
+
+    
+    <script src="js/script.js"></script>
+    <!--<script src="js/mysql.js"></script>-->
+
+</body>
+</html>
